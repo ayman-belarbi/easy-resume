@@ -3,9 +3,13 @@
   flex-direction: column;
 }
 
+body {
+  margin-top: 130px;
+}
+
 main {
-  margin: 150px 0 0;
   padding: 0;
+  height: 100vh;
 }
 
 header {
@@ -55,6 +59,10 @@ li {
   footer {
     margin-top: 100px;
   }
+
+  body {
+    margin-top: -100px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -70,5 +78,9 @@ li {
   .about-section a button {
     font-size: 13px;
     padding: 8px 18px;
+  }
+
+  body {
+    margin-top: -50px;
   }
 }
