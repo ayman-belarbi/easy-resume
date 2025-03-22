@@ -11,6 +11,7 @@ body {
   background-color: #ffffff;
   transition: all 0.5s ease;
   color: #170f49;
+  width: 100%;
 }
 
 a {
@@ -120,11 +121,8 @@ header {
 }
 
 .resume-img {
-  background-image: url("../images/resume.png");
-  background-size: cover;
-  background-position: center;
-  width: 500px;
-  height: 650px;
+  width: 470px;
+  height: auto;
   border-radius: 25px;
   border: 12px solid #d9dbe9;
   box-shadow: 0px 0px 20px #0000001a;
@@ -308,6 +306,11 @@ footer {
     font-size: small;
   }
 
+  .resume-img {
+    width: 70%;
+    height: auto;
+  }
+
   .logo img {
     width: 27px;
   }
@@ -351,7 +354,7 @@ footer {
   }
 
   .logo h1 {
-    font-size: 13px;
+    display: none;
   }
 
   .menu ul li a,
@@ -360,7 +363,7 @@ footer {
   }
 
   .menu ul {
-    gap: 25px;
+    gap: 35px;
   }
 
   main {
@@ -376,13 +379,15 @@ footer {
   }
 
   .resume-img {
-    width: 370px;
-    height: 490px;
+    width: 90%;
     border: 10px solid #d9dbe9;
   }
 
   .resume-div {
-    margin-top: -200px;
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    margin-top: -160px;
   }
 
   section {
@@ -390,6 +395,8 @@ footer {
     width: 100%;
     padding: 0px 20px;
     margin-bottom: -130px;
+    z-index: 60;
+    margin-top: -550px;
   }
 
   section img {
