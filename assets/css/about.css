@@ -39,7 +39,6 @@ li {
   padding: 10px 30px;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
-  margin-bottom: 100px;
 }
 
 .about-section a button:hover {
@@ -81,6 +80,6 @@ li {
   }
 
   body {
-    margin-top: -50px;
+    margin-top: -70px;
   }
 }
