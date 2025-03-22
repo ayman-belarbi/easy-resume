@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+  color: #170f49;
+}
+
+a {
+  text-decoration: none;
+  color: #170f49;
+}
+
+.logo img {
+  width: 30px;
+  height: auto;
+}
+
+.logo h1 {
+  font-size: 20px;
+  font-weight: 630;
+}
+
+.logo h1 span {
+  color: #4a3aff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: medium;
+  transition: all 0.2s ease-in-out;
+  color: #170f49;
+}
+
+.menu ul li button {
+  background-image: linear-gradient(90deg, #4a3aff, #9233ff);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-size: medium;
+  padding: 8px 18px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header {
+  display: flex;
+  font-size: medium;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  border-bottom: 1px solid #d9dbe9;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.menu ul li a:hover {
+  color: #4a3aff;
+}
+
+.menu ul li button:hover {
+  transform: scale(1.03);
+}
+
+.p-1 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: #4a3aff;
+}
+
+.content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.p-2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.content a button {
+  background-image: linear-gradient(90deg, #4a3aff, #9233ff);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-size: medium;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.resume-img {
+  background-image: url("../images/resume.png");
+  background-size: cover;
+  background-position: center;
+  width: 500px;
+  height: 650px;
+  border-radius: 25px;
+  border: 12px solid #d9dbe9;
+  box-shadow: 0px 0px 20px #0000001a;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 150px 200px;
+}
+
+.content button:hover {
+  transform: scale(1.03);
+}
+
+section img {
+  width: 430px;
+  height: auto;
+  margin-top: 15px;
+}
+
+section div h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+section div p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+section div a button {
+  background-image: linear-gradient(90deg, #4a3aff, #9233ff);
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  font-size: medium;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+section {
+  display: flex;
+  padding: 0px 200px;
+  gap: 50px;
+}
+
+section div button:hover {
+  transform: scale(1.03);
+}
+
+article div div h1 {
+  font-size: larger;
+  font-weight: 700;
+}
+
+article div div img {
+  width: 100px;
+  height: auto;
+}
+
+article div div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 120px;
+}
+
+article div p {
+  font-size: medium;
+}
+
+.d-iv {
+  width: 500px;
+}
+
+article {
+  display: flex;
+  padding: 100px 200px;
+  gap: 50px;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+}
+
+footer p {
+  font-size: medium;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  border-top: 1px solid #d9dbe9;
+  font-size: medium;
+}
+
+@media screen and (max-width: 1165px) {
+  header {
+    padding: 20px 50px;
+  }
+
+  main,
+  article {
+    padding: 150px 50px;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .resume {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .resume-div {
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+    margin-top: -263px;
+  }
+
+  section {
+    padding: 0px 50px;
+    margin-top: -350px;
+  }
+
+  section img {
+    width: 300px;
+  }
+
+  section div h1 {
+    font-size: 30px;
+  }
+
+  section div p {
+    font-size: 15px;
+  }
+
+  .d-iv {
+    width: 100%;
+  }
+
+  .d-iv div {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .d-iv div img {
+    width: 115px;
+  }
+
+  .d-iv div h1 {
+    font-size: 25px;
+  }
+
+  .d-iv p {
+    font-size: 15px;
+    padding-top: 15px;
+  }
+
+  footer {
+    padding: 20px 50px;
+  }
+
+  footer p {
+    font-size: small;
+  }
+
+  .logo img {
+    width: 27px;
+  }
+
+  .logo h1 {
+    font-size: 15px;
+  }
+
+  .menu ul li a,
+  .menu ul li a button {
+    font-size: 15px;
+  }
+
+  .content h1 {
+    font-size: 35px;
+  }
+
+  .p-2 {
+    font-size: 15px;
+  }
+
+  .p-1 {
+    font-size: 13px;
+  }
+
+  .content a button,
+  section div a button {
+    font-size: 15px;
+    padding: 8px 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+    z-index: 100;
+  }
+
+  .logo img {
+    width: 25px;
+  }
+
+  .logo h1 {
+    font-size: 13px;
+  }
+
+  .menu ul li a,
+  .menu ul li a button {
+    font-size: 13px;
+  }
+
+  .menu ul {
+    gap: 25px;
+  }
+
+  main {
+    padding: 150px 20px;
+  }
+
+  .content h1 {
+    font-size: 30px;
+  }
+
+  .p-2 {
+    font-size: 15px;
+  }
+
+  .resume-img {
+    width: 370px;
+    height: 490px;
+    border: 10px solid #d9dbe9;
+  }
+
+  .resume-div {
+    margin-top: -200px;
+  }
+
+  section {
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    padding: 0px 20px;
+    margin-bottom: -130px;
+  }
+
+  section img {
+    position: relative;
+    width: 150px;
+    right: -250px;
+    top: -140px;
+  }
+
+  section div h1 {
+    font-size: 26px;
+  }
+
+  section div p {
+    font-size: 15px;
+  }
+
+  .content a button,
+  section div a button {
+    font-size: 13px;
+    padding: 8px 18px;
+  }
+
+  article {
+    padding: 100px 20px;
+  }
+
+  .d-iv div img {
+    width: 100px;
+  }
+
+  .d-iv div h1 {
+    font-size: 20px;
+  }
+
+  .d-iv p {
+    margin-top: -20px;
+  }
+
+  footer {
+    padding: 15px 20px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
