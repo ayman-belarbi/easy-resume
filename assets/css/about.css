@@ -78,4 +78,8 @@ li {
     font-size: 13px;
     padding: 8px 18px;
   }
+
+  body {
+    margin-top: 100px;
+  }
 }
